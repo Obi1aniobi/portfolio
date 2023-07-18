@@ -1,0 +1,439 @@
+
+
+body {
+	background-color: #000000;
+	color: ghostwhite;
+	font-family: 'Comfortaa', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+#pageContainer {
+	padding-bottom: 20px;
+	margin: 0px;
+	background-color: #241E2C;
+	padding: 0px;
+}
+
+
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0px;
+	padding: 30px;
+	margin: 0px;
+	background-color: #004d65;
+	width: 100%;
+
+}
+
+#menus {
+	display: flex;
+	flex-direction: row;
+	margin-right: 200px;
+
+}
+
+
+
+.menu1 {
+	align-self: center;
+	margin: 45px;
+
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFD479;
+	
+
+	
+}
+
+
+
+
+a {
+	color: #FFD479;
+	text-decoration: none;
+}
+
+
+
+
+a:hover {
+	color: #76D6FF;
+	text-decoration: underline;
+
+}
+
+
+
+
+@keyframes unblur {
+  from {
+    text-shadow: 0 0 8px #c0c0c0;
+    
+  }
+  to {
+    text-shadow: 0;
+  }
+}
+
+
+
+
+h1 {
+	color: #FFD479;
+	font-weight: bold;
+	font-size: 48px;
+	animation: unblur 20s 1s 5;
+}
+
+
+
+
+.inner1, .inner2, .inner3, .inner4, .inner5, .inner6, .inner7 {
+
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.inner1 {
+	align-self: center;
+	padding: 50px;
+
+	
+	
+}
+
+
+
+
+
+#nameContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+
+}
+
+
+
+
+#locationContainer {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+
+}
+
+
+
+
+#description {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+
+
+
+#aboutMe {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 50px;
+	margin-top: 150px;
+	margin-left: 100px;
+	
+	
+	align-items: flex-start;
+
+
+}
+
+
+
+
+#bio {
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+
+}
+
+.inner1 {
+	margin: 20px;
+	
+
+	
+}
+
+
+li {
+	list-style-type: none;
+}
+
+h3, h2 {
+	font-weight: bold;
+	color: #05A89D;
+}
+
+h3 {
+	color: #74FBEA;
+
+}
+
+h2 {
+	color: #FFD479;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.inner2 {
+
+	margin: 20px;
+}
+
+
+.inner3 {
+
+	margin: 20px;
+}
+
+
+.inner4 {
+
+	margin: 20px;
+}
+
+
+.inner5 {
+
+	margin: 20px;
+}
+
+.inner6 {
+
+	margin: 20px;
+}
+
+.inner7 {
+
+	margin: 20px;
+}
+
+#Skilled {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	border-top: 0.5px solid #5E5E5E;
+	background-color: #453854;
+	padding: 100px;
+
+}
+
+
+
+#stack {
+	margin-top: 20px;
+
+}
+
+#Programming, #foto, #Frameworks, #Freelance {
+	line-height: 3em;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	border-top: 0.5px solid #5E5E5E;
+	
+	padding: 100px;
+
+}
+
+.inners {
+
+	margin-top: 20px;
+	line-height: 3em;
+	text-align: center;
+	padding: 30px;
+
+}
+
+
+#works {
+	margin-top: 20px;
+
+
+}
+
+button {
+	padding: 10px;
+	margin: 5px;
+	width: 100px;
+	font-size: 14px;
+	color: ghostwhite;
+	background-color: #797979;
+	border-radius: 5px;
+	border: 0px;
+
+}
+button:hover {
+	background-color: #FFD479;
+	color: #0096FF;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+
+
+#education {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 0.5px solid #5E5E5E;
+	background-color: #453854;
+	padding: 100px;
+
+}
+
+
+
+#educate {
+	margin-top: 20px;
+
+}
+
+
+
+.edu {
+	margin-top: 20px;
+	line-height: 3em;
+	text-align: justify;
+}
+
+
+
+
+#forInterest {
+	
+
+	
+	padding: 100px;
+	border-top: 0.5px solid #5E5E5E;
+	margin-left: 0px;
+}
+
+
+#interest {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+
+
+
+
+.inter {
+	margin-top: 20px;
+	line-height: 3em;
+	margin-right: 150px;
+
+
+
+
+
+}
+
+
+#info {
+	
+
+
+}
+
+
+#story p {
+	line-height: 3em;
+	justify-content: center;
+	align-items: center;
+
+	display: flex;
+	flex-direction: column;
+	
+	margin-top: 30px;
+	padding-top: 20px;
+
+}
+
+
+
+
+
+
+#contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+	padding: 100px;
+	border-top: 0.5px solid #5E5E5E;
+	background-color: #453854;
+
+}
+
+#social {
+	display: flex;
+	flex-direction: row;
+}
+
+#homebutton {
+	display: flex;
+	justify-content: flex-end;
+	margin: 30px;
+
+}
+
+#fone {
+	display: flex;
+	flex-direction: row;
+}
+
+.numeral {
+	align-self: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#emailIcon {
+	display: flex;
+	flex-direction: row;
+}
